@@ -1,0 +1,92 @@
+body {
+	margin:0px;
+	padding:0px;
+	background:#eee;
+}
+
+#wrapper {
+	width:960px;
+	margin:0 auto;
+	background:white;
+	padding-bottom:50px;
+}
+
+@media screen and (max-width:960px){
+	#wrapper {
+		width:100%;
+	}
+}
+
+#wrapper .title {
+	font-size:2em;
+	font-weight:bold;
+	text-align:center;
+	height:70px;
+	line-height:70px;
+	background:#933;
+	color:white;
+	margin-bottom:20px;
+}
+
+.item {
+	font-size:1.5em;
+	margin-bottom:40px;
+	border-bottom:1px solid #ccc;
+}
+
+.item .answer {
+	background:#09F;
+	color:white;
+	padding-left:20px;
+}
+
+.item .img {
+	text-align:center;
+}
+
+.item .img img {
+	width:200px;
+	border:none;
+}
+
+.item .ques {
+	padding-left:20px;
+	text-align:center;
+}
+
+.item.submit {
+	margin-bottom:0px;
+	border-bottom:none;
+	text-align:center;
+}
+
+.item.submit button {
+	border:none;
+	background:blue;
+	color:white;
+	padding:10px 30px;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+#scoreframe {
+	display:none;
+	margin-top:5px;
+}
+
+.wrong {
+	margin-left:50px;
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
